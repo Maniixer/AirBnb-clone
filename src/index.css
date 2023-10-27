@@ -69,18 +69,6 @@ nav {
   font-weight: 300;
 }
 
-@media (max-width: 600px) {
-  .hero-title {
-    font-size: 2.5em;
-  }
-  .hero-subtitle {
-    font-size: 1.5em;
-  }
-  .card {
-    margin: 1rem !important;
-  }
-}
-
 /* CARD */
 
 .card {
@@ -142,4 +130,20 @@ nav {
 
 p {
   margin: 0;
+}
+
+@media (max-width: 600px) {
+  .hero-title {
+    font-size: 2.5em;
+  }
+  .hero-subtitle {
+    font-size: 1.5em;
+  }
+  .card {
+    margin: 1rem !important;
+  }
+
+  .hero-img {
+    width: 100%;
+  }
 }
