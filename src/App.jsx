@@ -11,7 +11,7 @@ function App() {
       <Header />
       <Hero />
       <section className="overflow">
-        <div className="container flex">{cards}</div>
+        <div className="container flex padding">{cards}</div>
       </section>
     </div>
   );
