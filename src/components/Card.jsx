@@ -8,7 +8,7 @@ export default function Card(props) {
 
   return (
     <div className="card">
-      <div className="card-image" style={{ backgroundImage: `url(./src/images/${props.coverImg})` }}>
+      <div className="card-image" style={{ backgroundImage: `url(./images/${props.coverImg})` }}>
         {badgeText && (
           <div className="soldout-online">
             <p className="uppercase">{badgeText}</p>
@@ -18,7 +18,7 @@ export default function Card(props) {
       <div className="card-context">
         <div className="card-info">
           <div className="ratings">
-            <img src="./src/images/star.png" alt="star rating" className="star" />
+            <img src="./images/star.png" alt="star rating" className="star" />
             <p className="p-ratings">{props.stats.rating}</p>
           </div>
           <div className="info">
