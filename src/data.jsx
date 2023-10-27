@@ -41,4 +41,17 @@ export default [
     location: "Norway",
     openSpots: 3,
   },
+  {
+    id: 4,
+    title: "Bombs for Hamid",
+    description: "Experience the beautiful explosions you can make!",
+    price: 1,
+    coverImg: "bomb.jpg",
+    stats: {
+      rating: 4.8,
+      reviewCount: 578,
+    },
+    location: "Kortrijk",
+    openSpots: 3,
+  },
 ];
