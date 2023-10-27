@@ -65,6 +65,15 @@ nav {
   font-weight: 300;
 }
 
+@media (max-width: 600px) {
+  .hero-title {
+    font-size: 2.5em;
+  }
+  .hero-subtitle {
+    font-size: 1.5em;
+  }
+}
+
 /* CARD */
 
 .card {
