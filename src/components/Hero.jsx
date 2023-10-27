@@ -3,7 +3,7 @@ export default function Hero() {
     <section>
       <div className="container">
         <div className="hero">
-          <img src="./src/images/photo-grid.png" alt="" className="hero-img" />
+          <img src="./images/photo-grid.png" alt="" className="hero-img" />
         </div>
         <div className="hero-content">
           <h1 className="hero-title">Online Experiences</h1>
